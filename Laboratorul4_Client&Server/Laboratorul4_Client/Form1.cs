@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,11 +45,11 @@ namespace Laborator5_Client
             try
             {
                 client.Connect(txt_ip.Text, portNumber);
-                MessageBox.Show("Este conectat");
+                MessageBox.Show("Connected");
             }
             catch
             {
-                MessageBox.Show("Eroare de conectare");
+                MessageBox.Show("Erorr to Connect");
             }
         }
 
@@ -58,12 +58,12 @@ namespace Laborator5_Client
             if(button2.Text.StartsWith("Share"))
             {
                 timer1.Start();
-                button2.Text = "Stopeaza partajarea";
+                button2.Text = "Stop Screen";
             }
             else
             {
                 timer1.Stop();
-                button2.Text = "Partajeaza Ecranul";
+                button2.Text = "Start Screen";
             }
         }
 
