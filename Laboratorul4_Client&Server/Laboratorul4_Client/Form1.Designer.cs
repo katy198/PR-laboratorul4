@@ -1,4 +1,4 @@
-﻿namespace Laborator5_Client
+﻿namespace Laboratorul4_Client
 {
     partial class Form1
     {
