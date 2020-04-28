@@ -12,7 +12,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Laborator5_Server
+namespace Laboratorul4_Server
 {
     public partial class Form2 : Form
     {
